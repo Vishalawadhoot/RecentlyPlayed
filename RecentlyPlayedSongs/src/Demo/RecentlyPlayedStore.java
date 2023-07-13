@@ -153,7 +153,6 @@ public class RecentlyPlayedStore
         store.addRecentlyPlayedSong(song4, user1);
         store.addRecentlyPlayedSong(song5, user2);
         store.addRecentlyPlayedSong(song6, user1);
-
         store.getRecentlyPlayedSongs(user1);
         store.getRecentlyPlayedSongs(user2);
     }
